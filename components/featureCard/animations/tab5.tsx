@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import styles from './Animation.module.css';
+import styles from './animation.module.css';
 
 const Animation4 = () => {
     const imageRef = useRef<HTMLImageElement>(null);

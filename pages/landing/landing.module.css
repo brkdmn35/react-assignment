@@ -1,0 +1,5 @@
+.whatWeDo {
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+}

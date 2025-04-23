@@ -1,3 +1,29 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --main-bg-color: #F5F5F7;
+  --text-color: #0B172A;
+  --white-color: #FFF;
+  --blue-color: #0381FF;
+  --black-color: #000;
+  --hover-color: #0381FF08;
+  ;
+
+
+  --spacing-layout: 6.25rem;
+}
+
 .main {
   display: block;
+}
+
+html {
+  min-height: 100%;
+  background: var(--main-bg-color);
+}
+
+body {
+  font-family: 'SF Pro Display', sans-serif;
 }

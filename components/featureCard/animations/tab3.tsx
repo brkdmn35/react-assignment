@@ -21,26 +21,26 @@ const Animation3 = () => {
         tl.fromTo(
             preview1Ref.current,
             { width: '50%', height: '0%', bottom: '-100%', opacity: 0 },
-            { width: '55%', height: '55%', bottom: '100px', opacity: 1, duration: 0.5, ease: 'power1' },
+            { width: '55%', height: '55%', bottom: '20%', opacity: 1, duration: 0.5, ease: 'power1' },
             '+=0.1'
         );
         tl.fromTo(
             preview2Ref.current,
             { width: '50%', height: '0%',  bottom: '-100%', opacity: 0 },
-            { width: '65%', height: '65%', bottom: '30px', opacity: 1, duration: 0.5, ease: 'power1' },
+            { width: '65%', height: '65%', bottom: '5%', opacity: 1, duration: 0.5, ease: 'power1' },
             '+=0.1'
         );
         tl.fromTo(
             preview3Ref.current,
             { width: '50%', height: '0%',  bottom: '-100%', opacity: 0 },
-            { width: '75%', height: '75%', bottom: '-40px', opacity: 1, duration: 0.5, ease: 'power1' },
+            { width: '75%', height: '75%', bottom: '-10%', opacity: 1, duration: 0.5, ease: 'power1' },
             '+=0.1'
         );
     }, []);
 
     return (
         <div ref={wrapperRef} className={styles.image}>
-            <img src="/images/feature_animations/phone_3.png" alt="Phone Image" className={styles.phone} />
+            <img src="/images/feature_animations/phone_3.png" alt="Phone Image" className={styles.imageWithPopUp} />
             <img
                 ref={preview1Ref}
                 src="/images/feature_animations/file_preview.png"

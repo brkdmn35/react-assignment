@@ -3,6 +3,7 @@
   transform: translate(-50%, 0%);
   position: absolute;
   bottom: 0;
+  display: flex;
 }
 
 .fileType {
@@ -20,13 +21,13 @@
 }
 
 .popOut1 {
-  top: -30vh;
-  left: 5vw;
+  top: 13vw;
+  right: -7vw;
 }
 
 .popOut2 {
-  top: -20vh;
-  right: 3vw;
+  bottom: 3vw;
+  left: -7vw;
 }
 
 .phone_bar_1 {
@@ -53,4 +54,29 @@
   transform: translate(-50%, 0%);
   position: relative;
   bottom: 0;
+}
+
+@media (max-width: 768px) {
+
+  .image,
+  .phone,
+  .imageWithPopUp {
+    width: 50vw;
+  }
+
+  .arrow {
+    width: 3vw !important;
+  }
+
+  .popOut {
+    width: 50%;
+  }
+
+  .fileType {
+    width: 18vw;
+  }
+
+  .phone_bar_1, .phone_bar_2 {
+    width: 11%
+  }
 }

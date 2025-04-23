@@ -46,7 +46,7 @@ const Animation4 = () => {
     return (
         <div ref={imageRef} className={styles.image}>
             <img src="/images/feature_animations/phone_5.png" alt="Tab 5 Image" className={styles.imageWithPopUp} />
-            <img ref={popOut1Ref} src="/images/feature_animations/arrow.png" alt="Pop out 1" className={`${styles.fileType} `} />
+            <img ref={popOut1Ref} src="/images/feature_animations/arrow.png" alt="Pop out 1" className={`${styles.fileType} ${styles.arrow}`} />
             <img ref={popOut2Ref} src="/images/feature_animations/pdf.png" alt="Pop out 2" className={`${styles.fileType} `} />
             <img ref={popOut3Ref} src="/images/feature_animations/jpg.png" alt="Pop out 3" className={`${styles.fileType} `} />
             <img ref={popOut4Ref} src="/images/feature_animations/txt.png" alt="Pop out 4" className={`${styles.fileType}`} />

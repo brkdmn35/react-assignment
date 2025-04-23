@@ -31,7 +31,7 @@ const Animation2 = () => {
 
     return (
         <div ref={imageRef} className={styles.image}>
-            <img src="/images/feature_animations/phone_2.png" alt="Tab 1 Image" className={styles.image} />
+            <img src="/images/feature_animations/phone_2.png" alt="Tab 1 Image" className={styles.imageWithPopUp} />
             <img ref={popOut1Ref} src="/images/feature_animations/anim2_pop_out_1.png" alt="Pop out 1" className={`${styles.popOut} ${styles.popOut1}`} />
             <img ref={popOut2Ref} src="/images/feature_animations/anim2_pop_out_2.png" alt="Pop out 2" className={`${styles.popOut} ${styles.popOut2}`} />
         </div>

@@ -9,7 +9,7 @@ const Animation1 = () => {
         gsap.fromTo(
             imageRef.current,
             { bottom: '-100%', opacity: 0 },
-            { bottom: '0px', opacity: 1, duration: 1, ease: 'power3.out' }
+            { bottom: '0px', opacity: 1, duration: 1.5, ease: 'power3.out' }
         );
     }, []);
 

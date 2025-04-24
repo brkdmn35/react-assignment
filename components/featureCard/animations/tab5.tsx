@@ -14,7 +14,7 @@ const Animation4 = () => {
         tl.fromTo(
             imageRef.current,
             { bottom: '-100%', opacity: 0 },
-            { bottom: '0px', opacity: 1, duration: 1, ease: 'power3.out' }
+            { bottom: '0px', opacity: 1, duration: 1.5, ease: 'power3.out' }
         );
         tl.fromTo(
             popOut1Ref.current,
@@ -37,7 +37,7 @@ const Animation4 = () => {
         tl.fromTo(
             popOut4Ref.current,
             { bottom: '-50%', left: '30%' },
-            { bottom: '1vh',  left: '90%', duration: 0.5, ease: 'power1' },
+            { bottom: '1vh', left: '90%', duration: 0.5, ease: 'power1' },
             '+=0'
         );
 

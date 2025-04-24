@@ -27,9 +27,11 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
         <AnimationManager index={activeIndex} />
       </div>
       <div key={activeIndex} className={styles.textContent}>
-        <Headline>{headline}</Headline>
-        <Title>{title}</Title>
-        <Description>{description}</Description>
+        <div>
+          <Headline>{headline}</Headline>
+          <Title>{title}</Title>
+          <Description>{description}</Description>
+        </div>
         {onLearnMore && (
           <LightButton onClick={onLearnMore} className={styles.learnMoreButton}>
             Learn More

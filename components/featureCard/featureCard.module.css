@@ -40,12 +40,12 @@
 }
 
 /* Responsive Purposes */
-@media (max-width: 768px) {
+@media (width <=768px) {
   .featureCard {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     text-align: center;
-    padding: 3rem 1rem 0 1rem;
+    padding: 3rem 1rem 0;
     gap: 0;
     height: auto;
   }
@@ -62,7 +62,6 @@
   }
 
   .textContent> :last-child {
-    margin-top: auto;
     margin: auto;
   }
 

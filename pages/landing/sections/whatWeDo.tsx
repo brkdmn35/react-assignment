@@ -9,8 +9,10 @@ import Circle from '../../../src/assets/icons/circle.svg?react';
 import Chip from '../../../src/assets/icons/chip.svg?react';
 import Certified from '../../../src/assets/icons/certified.svg?react';
 import FeatureCard from '../../../components/featureCard';
+import { Tab } from '../../../src/types/components/tap';
+import { FeatureCardData } from '../../../src/types/content/landing';
 
-const tabs = [
+const tabs: Tab[] = [
     {
         label: 'Document Scanner',
         icon: File,
@@ -36,7 +38,7 @@ const tabs = [
     },
 ];
 
-const featureCardDummyData = [
+const featureCardDummyData: FeatureCardData[] = [
     {
         title: 'Scan with Ease',
         headline: 'Document Scanner',

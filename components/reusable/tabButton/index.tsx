@@ -1,8 +1,14 @@
 import React from 'react';
 import styles from './tabButton.module.css';
+import { Tab } from '../../../src/types/components/tap';
 
 
-const TabButton = ({ tab, isActive, onTabClick, index }: any) => {
+const TabButton = ({ tab, isActive, onTabClick, index }: {
+    tab: Tab;
+    isActive: boolean;
+    onTabClick: (index: number) => void;
+    index: number;
+}) => {
     const Icon = tab.icon;
 
     return <div

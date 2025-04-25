@@ -1,7 +1,7 @@
 .icon {
   width: 32px;
   height: 32px;
-  color: #666666;
+  color: #666;
   transition: color 0.3s ease;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .animatedCircle {
-  stroke-dasharray: 147.5; /* ~2π * 23.5 */
+  stroke-dasharray: 147.5;
   stroke-dashoffset: -147.5;
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
@@ -59,10 +59,10 @@
 
 .tab {
   display: inline-flex;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem; 
+  gap: 0.5rem;
   padding: 1rem 0.75rem;
   cursor: pointer;
   transition: background 0.3s, box-shadow 0.3s ease;
@@ -85,18 +85,18 @@
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (width >=768px) {
   .tabContainer {
     overflow-x: hidden;
-  }
-
-  .tab:hover {
-    box-shadow: inset 0 0 0 3px #007aff;
   }
 
   .tab {
     flex: 1;
     min-width: 0;
     display: flex;
+  }
+
+  .tab:hover {
+    box-shadow: inset 0 0 0 3px #007aff;
   }
 }

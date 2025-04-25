@@ -1,18 +1,11 @@
 import React from 'react';
 import styles from './featureCard.module.css';
-import Headline from '../elements/headline';
-import Title from '../elements/title';
-import Description from '../elements/description';
-import LightButton from '../elements/lightButton';
+import Headline from '../reusable/elements/headline';
+import Title from '../reusable/elements/title';
+import Description from '../reusable/elements/description';
+import LightButton from '../reusable/elements/lightButton';
 import AnimationManager from './animations/animationManagement';
-
-interface FeatureCardProps {
-  title: string;
-  headline: string;
-  description: string;
-  onLearnMore?: () => void;
-  activeIndex: number;
-}
+import { FeatureCardProps } from '../../src/types/content/landing';
 
 const FeatureCard: React.FC<FeatureCardProps> = ({
   title,

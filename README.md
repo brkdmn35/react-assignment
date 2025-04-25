@@ -16,6 +16,25 @@ Example implementation videos:
 https://drive.google.com/drive/folders/1kkicvHG7UMc-MY9npv_fy4gW1cZF3QiO?usp=drive_link
 ```
 
+## File Structure
+
+.
+├── components/                 # All UI components
+│
+├── pages/                     # Pages components and sections
+│
+├── public/                    # Public assets
+│
+├── src/                       # Source directory
+│   ├── assets/
+│   │   ├── fonts/             # Custom fonts (e.g., SF Pro Display)
+│   │   └── icons/             # Imported Icons
+│   ├── styles/                # Global styles and CSS variables
+│   │   └── fonts.css
+│   ├── types/                 # TypeScript type definitions
+│   └── styles.css             # Global reset and base styles
+.
+
 ## Start development server
 
 ```sh

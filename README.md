@@ -19,8 +19,7 @@ https://drive.google.com/drive/folders/1kkicvHG7UMc-MY9npv_fy4gW1cZF3QiO?usp=dri
 ## File Structure
 
 .
-├── components/                 # All UI components
-│
+├── components/               # UI components
 ├── pages/                     # Pages components and sections
 │
 ├── public/                    # Public assets
@@ -33,7 +32,7 @@ https://drive.google.com/drive/folders/1kkicvHG7UMc-MY9npv_fy4gW1cZF3QiO?usp=dri
 │   │   └── fonts.css
 │   ├── types/                 # TypeScript type definitions
 │   └── styles.css             # Global reset and base styles
-.
+└── tsconfig.json             # TypeScript config
 
 ## Start development server
 
